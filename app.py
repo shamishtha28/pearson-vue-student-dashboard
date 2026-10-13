@@ -279,7 +279,8 @@ except Exception as e:
         "files exist in your GitHub repository and that their names "
         "are correct."
     )
-    st.code(str(e))from sklearn.tree import DecisionTreeClassifier
+    st.code(str(e))
+    from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
